@@ -72,7 +72,7 @@ const InterviewQues = (name, topic) => {
     greet = "Good Afternoon";
   } else if (hrs >= 17 && hrs < 19) {
     greet = "Good Evening";
-  } else if (hrs >= 19 && hrs < 5) {
+  } else {
     greet = "Good Night";
   }
   return `${greet}, ${name}. Please tell us something About ${topic}.`;
