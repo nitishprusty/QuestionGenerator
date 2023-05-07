@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-image: linear-gradient(0deg, rgb(85, 217, 233),rgb(86, 73, 252));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    .login-form {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: radial-gradient(
+            circle at 29% 55%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 4%,
+            transparent 4%,
+            transparent 44%,
+            transparent 44%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 85% 89%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 51%,
+            transparent 51%,
+            transparent 52%,
+            transparent 52%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 6% 90%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 53%,
+            transparent 53%,
+            transparent 64%,
+            transparent 64%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 35% 75%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 6%,
+            transparent 6%,
+            transparent 98%,
+            transparent 98%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 56% 75%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 16%,
+            transparent 16%,
+            transparent 23%,
+            transparent 23%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 42% 0%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 3%,
+            transparent 3%,
+            transparent 26%,
+            transparent 26%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 29% 28%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 51%,
+            transparent 51%,
+            transparent 75%,
+            transparent 75%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 77% 21%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 35%,
+            transparent 35%,
+            transparent 55%,
+            transparent 55%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 65% 91%,
+            hsla(329, 0%, 99%, 0.05) 0%,
+            hsla(329, 0%, 99%, 0.05) 46%,
+            transparent 46%,
+            transparent 76%,
+            transparent 76%,
+            transparent 100%
+        ),
+        linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+  
+    }
+    input {
+    font-weight: bold;
+    font-size: 15px;
+    width: 225px;
+    height: 36px;
+    border: 200em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 4px solid white;
+    margin: 5px;
+    color: blueviolet;
+    text-align: center;
+    }
+    input:hover {
+    border: 4px solid cyan;
+    }
+    input:focus {
+    color: white;
+    border: 4px solid cyan;
+    background-image: linear-gradient(37deg, rgb(32, 218, 233), dodgerblue);
+    outline: none;
+    }
+    input::placeholder {
+    color: blueviolet;
+    font-weight: bold;
+    }
+    input:focus::placeholder {
+    color: white;
+    }
+    button {
+    width: 100px;
+    height: 36px;
+    color: rebeccapurple;
+    border-color: aqua;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    }
+    button:hover {
+    color: white;
+    background-image:linear-gradient(
+            161deg,
+            rgba(117, 117, 117, 0.03) 0%,
+            rgba(117, 117, 117, 0.03) 50%,
+            rgba(8, 8, 8, 0.03) 50%,
+            rgba(8, 8, 8, 0.03) 100%
+        ),
+        linear-gradient(
+            59deg,
+            rgba(245, 245, 245, 0.05) 0%,
+            rgba(245, 245, 245, 0.05) 50%,
+            rgba(68, 68, 68, 0.05) 50%,
+            rgba(68, 68, 68, 0.05) 100%
+        ),
+        linear-gradient(
+            286deg,
+            rgba(107, 107, 107, 0.07) 0%,
+            rgba(107, 107, 107, 0.07) 50%,
+            rgba(7, 7, 7, 0.07) 50%,
+            rgba(7, 7, 7, 0.07) 100%
+        ),
+        linear-gradient(
+            123deg,
+            rgba(9, 9, 9, 0.09) 0%,
+            rgba(9, 9, 9, 0.09) 50%,
+            rgba(120, 120, 120, 0.09) 50%,
+            rgba(120, 120, 120, 0.09) 100%
+        ),
+        linear-gradient(
+            170deg,
+            rgba(202, 202, 202, 0.01) 0%,
+            rgba(202, 202, 202, 0.01) 50%,
+            rgba(19, 19, 19, 0.01) 50%,
+            rgba(19, 19, 19, 0.01) 100%
+        ),
+        linear-gradient(
+            210deg,
+            rgba(64, 64, 64, 0.04) 0%,
+            rgba(64, 64, 64, 0.04) 50%,
+            rgba(4, 4, 4, 0.04) 50%,
+            rgba(4, 4, 4, 0.04) 100%
+        ),
+        linear-gradient(90deg, rgb(249, 17, 190), rgb(100, 28, 213));
+    }
+    button:focus-within{
+    border-color: red;
+    }
+    #ques{
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+    #return-btn{
+        display: none;
+    }
+    .heading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .footer{
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+  }
